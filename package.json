@@ -4,7 +4,8 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "test": "vitest"
+    "test": "vitest",
+    "test:ui": "vitest --ui"
   },
   "keywords": [
     "Js Unit testing",
@@ -13,6 +14,7 @@
   "author": "Narayan Gautam",
   "license": "ISC",
   "devDependencies": {
+    "@vitest/ui": "^2.1.1",
     "vitest": "^2.1.1"
   }
 }
